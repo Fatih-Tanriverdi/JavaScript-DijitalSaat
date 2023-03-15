@@ -1,0 +1,49 @@
+
+body {
+background-color: #6D6775;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+}
+
+
+.card {
+    margin-top: 50%;
+    background-color: #A8B0B8;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.saat,
+.dakika,
+.saniye {
+    width: 100px;
+    font-size: 30px;
+    background-color: #E1DCD3;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+
+.saat:hover,
+.dakika:hover,
+.saniye:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+
+
+
